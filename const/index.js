@@ -17,14 +17,14 @@ export const GENRE_LIST = [
         name: '時間管理',
         url : `${DOMAIN}/time`
     },
-    {
-        name: 'Book',
-        url : `${DOMAIN}/books`
-    },
-    {
-        name: 'Movies',
-        url : `${DOMAIN}/movies`
-    },
+    // {
+    //     name: 'Book',
+    //     url : `${DOMAIN}/books`
+    // },
+    // {
+    //     name: 'Movies',
+    //     url : `${DOMAIN}/movies`
+    // },
     {
         name: 'Technology',
         url : `${DOMAIN}/tech`
@@ -33,4 +33,4 @@ export const GENRE_LIST = [
 
 export const AD_CLIENT_ID = process.env.NEXT_PUBLIC_AD_CLIENT_ID
 
-export const serviceName = 'AI'
+export const serviceName = 'おすすめ本'

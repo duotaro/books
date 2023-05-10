@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://eurekayamauchi.github.io/books
+
+# Sitemaps
+Sitemap: https://eurekayamauchi.github.io/books/sitemap.xml
