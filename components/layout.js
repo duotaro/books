@@ -10,19 +10,9 @@ export default function Layout({ children }) {
     <>
       <Head>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <meta name="description" content="TechnologyとConvenienceを組み合わせた造語。このページでは時間管理に関するツールや管理方法などについて記載します。Toggl / Timely" />
+        <meta name="description" content="TechnologyとConvenienceを組み合わせた造語。ここではおすすめの本などを記載します。Toggl / Timely" />
         <meta property="og:image"  contents="https://cdn-ak.f.st-hatena.com/images/fotolife/d/duo-taro100/20230501/20230501153944.jpg"></meta>
       </Head>
-        <Script>{`
-          window.dataLayer = window.dataLayer || [];
-          const gtag = () => {
-            dataLayer.push(arguments);
-          }
-          gtag('js', new Date());
-  
-          gtag('config', 'G-7K32FX1NCM');
-          `}
-        </Script>
       <Navbar />
       <AdSense slot={'aaa'}/>
       <nav className="navbar navbar-expand navbar-light bg-dark gnav">
